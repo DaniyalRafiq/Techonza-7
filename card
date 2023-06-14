@@ -1,0 +1,374 @@
+<div class="sidebar">
+   <div class="side_heading">
+      <h4>
+         Popular Posts
+      </h4>
+      <svg   width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+         <defs>
+         <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+         <stop offset="0%" stop-color="#FFAA10"></stop>
+         <stop offset="100%" stop-color="#8889e7"></stop>
+         </linearGradient>
+         </defs>
+         <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+         </svg>
+   </div>
+      <div class="populor_post_side">
+         <div class="populor_card_side">
+            <div class="post_img_side">
+               <img src="images/blog_main/blog_ (1).webp" alt="">
+            </div>
+            <div class="post_content_side">
+               <a href="single_blog.html" class="side_post" > 
+                  <h4>3 Easy Ways To Make Your iPhone Faster</h4>
+               </a>
+               <div class="psot_date_side">
+                  14 August 2022
+               </div>
+            </div>
+         </div>
+         <dib class="populor_card_side">
+            <div class="post_img_side">
+               <img src="images/blog_main/blog_ (10).webp" alt="">
+            </div>
+            <div class="post_content_side">
+               <a href="single_blog.html" class="side_post" > 
+                  <h4>15 Unheard Ways To Achieve Greater Walker</h4>
+               </a>
+               <div class="psot_date_side">
+                  23 August 2022
+               </div>
+            </div>
+         </dib>
+         <div class="populor_card_side">
+            <div class="post_img_side">
+               <img src="images/blog_main/blog_ (5).webp" alt="">
+            </div>
+            <div class="post_content_side">
+               <a href="#" class="side_post" > 
+                  <h4>Facts About Business That Will Help You Success</h4>
+               </a>
+               <div class="psot_date_side">
+                  23 August 2022
+               </div>
+            </div>
+         </div>
+         
+      </div>
+      <div class="side_heading">
+         <h4>
+            Categories
+         </h4>
+         <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFAA10"></stop>
+            <stop offset="100%" stop-color="#8889e7"></stop>
+            </linearGradient>
+            </defs>
+            <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+            </svg>
+      </div>
+      <div class="cate_side">
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Celebration
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (2)
+               </div>
+            </div>
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Culture
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (2)
+               </div>
+            </div>
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Fashion
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (1)
+               </div>
+            </div>
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Inspiration
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (1)
+               </div>
+            </div>
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Lifestyle
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (6)
+               </div>
+            </div>
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Politic
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (6)
+               </div>
+            </div>
+            <div class="cate_side_line">
+               <a href="#" class="cate_side_content">
+                  <div class="cate_side_icon">
+                     <i class="ti ti-chevron-right"></i>
+                  </div>
+                  <div class="cate_name">
+                     Trending
+                  </div>
+               </a>
+               <div class="cate_num">
+                  (6)
+               </div>
+            </div>
+      </div>
+      <div class="side_heading">
+         <h4>
+          Tags
+         </h4>
+         <svg width="33" height="6" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFAA10"></stop>
+            <stop offset="100%" stop-color="#8889e7"></stop>
+            </linearGradient>
+            </defs>
+            <path d="M33 1c-3.3 0-3.3 4-6.598 4C23.1 5 23.1 1 19.8 1c-3.3 0-3.3 4-6.599 4-3.3 0-3.3-4-6.6-4S3.303 5 0 5" stroke="url(#gradient)" stroke-width="2" fill="none"></path>
+            </svg>
+      </div>
+      <div class="tags_side">
+         <a href="#" class="side_bar_tags">
+            #Audio
+         </a>
+         <a href="#" class="side_bar_tags">
+            #Content
+         </a>
+         <a href="#" class="side_bar_tags">
+            #Image
+         </a>
+         <a href="#" class="side_bar_tags">
+            #Inspiration
+         </a>
+         <a href="#" class="side_bar_tags">
+            #Photo
+         </a>
+
+         <a href="#" class="side_bar_tags">
+            #Pick
+         </a>
+
+         <a href="#" class="side_bar_tags">
+            #Slide
+         </a>
+         <a href="#" class="side_bar_tags">
+            #Trending
+         </a>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+  <!-- <div class="latest">
+                     <div class="latest_card">
+                        <div class="latest_cawrd_img">
+                           <img src="images/blog_main/blog_ (8).webp" alt="">
+                        </div>
+                        <div class="latest_card_content">
+                           <div class="latest_card_upper">
+                              <div class="latest_card_aurthor">
+                                 <img src="images/author.jpg" alt="">
+                              </div>
+                              <div class="aurthor_name">
+                                 Katen Doe
+                              </div>
+                              <div class="latest_card_tag">
+                                 Lifestyle
+                              </div>
+                              <div class="latest_card_date">
+                                 August 23, 2022
+                              </div>
+                           </div>
+                           <div class="latest_card_bottom">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit"> Master The Art Of Nature With These 7 Tips</h4>
+                              </a>
+                              <p class="webkit">
+                                 The European languages are members of the same family. Their separate existence is a
+                                 mythit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="latest_card">
+                        <div class="latest_cawrd_img">
+                           <img src="images/blog_main/blog_ (3).webp" alt="">
+                        </div>
+                        <div class="latest_card_content">
+                           <div class="latest_card_upper">
+                              <div class="latest_card_aurthor">
+                                 <img src="images/author.jpg" alt="">
+                              </div>
+                              <div class="aurthor_name">
+                                 Katen Doe
+                              </div>
+                              <div class="latest_card_tag">
+                                 Lifestyle
+                              </div>
+                              <div class="latest_card_date">
+                                 August 23, 2022
+                              </div>
+                           </div>
+                           <div class="latest_card_bottom">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit"> Easy Ways To Learn Everything About Construction</h4>
+                              </a>
+                              <p class="webkit">
+                                 The European languages are members of the same family. Their separate existence is a
+                                 mythit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+
+                     <div class="latest_card">
+                        <div class="latest_cawrd_img">
+                           <img src="images/blog_main/blog_ (1).webp" alt="">
+                        </div>
+                        <div class="latest_card_content">
+                           <div class="latest_card_upper">
+                              <div class="latest_card_aurthor">
+                                 <img src="images/author.jpg" alt="">
+                              </div>
+                              <div class="aurthor_name">
+                                 Katen Doe
+                              </div>
+                              <div class="latest_card_tag">
+                                 Lifestyle
+                              </div>
+                              <div class="latest_card_date">
+                                 August 23, 2022
+                              </div>
+                           </div>
+                           <div class="latest_card_bottom">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit"> Your Light Is About To Stop Being Relevant </h4>
+                              </a>
+                              <p class="webkit">
+                                 The European languages are members of the same family. Their separate existence is a
+                                 mythit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+
+                     <div class="latest_card">
+                        <div class="latest_cawrd_img">
+                           <img src="images/blog_main/blog_ (5).webp" alt="">
+                        </div>
+                        <div class="latest_card_content">
+                           <div class="latest_card_upper">
+                              <div class="latest_card_aurthor">
+                                 <img src="images/author.jpg" alt="">
+                              </div>
+                              <div class="aurthor_name">
+                                 Katen Doe
+                              </div>
+                              <div class="latest_card_tag">
+                                 Lifestyle
+                              </div>
+                              <div class="latest_card_date">
+                                 August 23, 2022
+                              </div>
+                           </div>
+                           <div class="latest_card_bottom">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit">Facts About Business That Will Help You Success</h4>
+                              </a>
+                              <p class="webkit">
+                                 The European languages are members of the same family. Their separate existence is a
+                                 mythit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+
+                     <div class="latest_card">
+                        <div class="latest_cawrd_img">
+                           <img src="images/blog_main/blog_ (2).webp" alt="">
+                        </div>
+                        <div class="latest_card_content">
+                           <div class="latest_card_upper">
+                              <div class="latest_card_aurthor">
+                                 <img src="images/author.jpg" alt="">
+                              </div>
+                              <div class="aurthor_name">
+                                 Katen Doe
+                              </div>
+                              <div class="latest_card_tag">
+                                 Lifestyle
+                              </div>
+                              <div class="latest_card_date">
+                                 August 23, 2022
+                              </div>
+                           </div>
+                           <div class="latest_card_bottom">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit"> 60 Things To Immediately Do About Building</h4>
+                              </a>
+                              <p class="webkit">
+                                 The European languages are members of the same family. Their separate existence is a
+                                 mythit Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div> -->  
