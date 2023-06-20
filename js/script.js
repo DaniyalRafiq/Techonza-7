@@ -16,7 +16,7 @@ $(document).ready(function () {
 $('.menu').click(function () {
   $(".nav_links").toggleClass('Active');
   $('.menu .ti').toggleClass("ti-pointer-search , ti-x");
-
+  $('body').toggleClass("active");
 });
 
 
@@ -103,6 +103,28 @@ var swiper = new Swiper(".blog_main", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+});
+
+
+
+var swiper = new Swiper(".latest_post_wrapper", {
+  loop: true,
+  slidesPerView: "auto",
+  speed: 500, 
+  spaceBetween: 30,
+  pagination: {
+    clickable: true,
+
+    el: ".swiper-pagination",
+  },
+
+});
+
+
+
+
+$('.alphabet-item').click(function () {
+  $(this).addClass('active').siblings().removeClass('active')
 });
 
 
