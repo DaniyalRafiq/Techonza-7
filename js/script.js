@@ -121,10 +121,28 @@ var swiper = new Swiper(".latest_post_wrapper", {
 });
 
 
+// $('.filters_btn').click(function () {
+//   $(this).addClass('active').siblings().removeClass('active')
+// });
 
-
-$('.alphabet-item').click(function () {
+$('.alphabet-item , .filters_btn').click(function () {
   $(this).addClass('active').siblings().removeClass('active')
 });
 
 
+
+
+zoom.addEventListener("change", (e) => {
+  staticBackdrop.classList.toggle("zoom");
+})
+
+
+const button = document.querySelector('.show_code_btn');
+
+button.addEventListener('click', () => {
+  button.classList.add('zoom-out');
+});
+
+button.addEventListener('transitionend', () => {
+  button.classList.remove('zoom-out');
+});
