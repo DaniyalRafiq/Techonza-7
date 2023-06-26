@@ -182,7 +182,9 @@
   .single_store_main {
       margin-top: 68px;
   }
-
+  .alphabet_filter{
+   display: none;
+  }
 }
 
 @media (max-width: 768px) {

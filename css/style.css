@@ -2894,7 +2894,7 @@ button.close_btn {height: 30px;width: 30px;}
 }
 .modal-header {
     background: white;
-    gap: 13px;
+    gap: 6px;
     align-items: center;
     flex-direction: column;
 }
@@ -2903,7 +2903,7 @@ button.close_btn {height: 30px;width: 30px;}
     background: white;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
 }
 
 .modal-footer {
