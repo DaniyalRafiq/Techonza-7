@@ -3099,4 +3099,30 @@ button.close_btn {height: 30px;width: 30px;}
     max-height: 100px;
     overflow: auto;
 }
+.show_code_deal {
+    position: relative;
+    background: var(--secondary-500);
+    width: 100%;
+    padding: 7px
+px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    text-align: center;
+    color: white;
+    font-family: var(--font-500);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 38px;
+    border-radius: 2px;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    margin-top: 15px;
+    color: black;
+}
+
+.show_code_deal:hover {
+    background: var(--secondary-800);
+}
 /*==========CategoryEnd========== */
