@@ -8,11 +8,53 @@ $(document).ready(function () {
   });
   
   $('.search_icon').click(function () {
-    $('.header_search').toggleClass('active');
-    $('.search_icon .ti').toggleClass("ti-pointer-search , ti-x");
+    $('.header_search , .header_Ssearch_main , .header_search_result').toggleClass('active');
+    $('.search_icon .ti').toggleClass("ti-pointer-search ti-x");
 
+    // Check if the header wrapper has the "active" class
+    var headerWrapper = $('header .header_wrapper');
+    var hasActiveClass = headerWrapper.hasClass("active");
+
+    // Applying delay only when adding the "active" class
+    if (!hasActiveClass) {
+      setTimeout(function() {
+        headerWrapper.addClass("active");
+      }, 700);
+    } else {
+      // If the class is already present, just remove it without a delay
+      headerWrapper.removeClass("active");
+    }
   });
 });
+
+
+function updateSearchResults() {
+  var searchText = $("#searchInput").val().toLowerCase().trim();
+  var hasResults = false;
+
+  if (searchText === "") {
+     $(".header_search_result").css("display", "none");
+     return;
+  }
+
+  $(".search_result_post").each(function() {
+     var postTitle = $(this).find("h4.webkit").text().toLowerCase();
+     if (postTitle.includes(searchText)) {
+        $(this).addClass("visible");
+        hasResults = true; // Set hasResults to true if there are matching posts
+     } else {
+        $(this).removeClass("visible");
+     }
+  });
+
+  // Show/hide the header_search_result based on search results, but only if the search bar has some content
+  $(".header_search_result").css("display", hasResults ? "flex" : "none");
+}
+
+// Trigger the search function on input event
+$("#searchInput").on("input", updateSearchResults);
+
+
 $('.menu').click(function () {
   $(".nav_links").toggleClass('Active');
   $('.menu .ti').toggleClass("ti-pointer-search , ti-x");
@@ -97,6 +139,11 @@ var swiper = new Swiper(".blog_main", {
   speed: 500, 
   spaceBetween: 30,
   pagination: {
+    el: ".swiper-pagination",
+  },
+  pagination: {
+    clickable: true,
+
     el: ".swiper-pagination",
   },
   navigation: {

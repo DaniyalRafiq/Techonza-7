@@ -20,7 +20,7 @@
 
 <body>
    <!-- ==========Header========== -->
-   <header>
+   <header class="header">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
@@ -30,23 +30,74 @@
                   </a>
                   <div class="navbar_main">
                      <ul class="nav_links">
-                        <li><a class="link" href="index.html">home </a></li>
+                        <li class="menu_active"><a class="link a_active" href="index.html">home </a></li>
                         <li><a class="link" href="about.html">about<div class="nav_icon"> <i
                                     class="ti ti-arrow-right"></i> </div></a></li>
                         <li><a class="link" href="store.html">store<div class="nav_icon"> <i
                                     class="ti ti-arrow-right"></i> </div></a></li>
                         <li><a class="link" href="blog.html">Blog<div class="nav_icon"> <i
                                     class="ti ti-arrow-right"></i> </div></a></li>
-                        <li class="menu_active"><a class="link a_active" href="index.html">Contact </a></li>
+                        <li><a class="link" href="contact.html">Contact<div class="nav_icon"> <i
+                                    class="ti ti-arrow-right"></i> </div></a></li>
                         <li class="category_nav"><a class="link" href="categories.html">category<div class="nav_icon">
-                                 <i class="ti ti-arrow-right"></i> </div></a></li>
+                                 <i class="ti ti-arrow-right"></i>
+                              </div></a></li>
                      </ul>
                   </div>
-                  <div class="header_search">
-                     <input type="text" placeholder="search">
-                     <button class="header_search_btn">
-                        Submit
-                     </button>
+                  <div class="header_Ssearch_main">
+                     <div class="header_search">
+                        <input type="text" placeholder="search" id="searchInput">
+                        <button class="header_search_btn">
+                           Submit
+                        </button>
+                     </div>
+                     <div class="header_search_result">
+                        <div class="search_result_post">
+                           <figure>
+                              <img src="images/blog/blog_12.jpg" alt="">
+                           </figure>
+                           <div class="side_post_content">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit">How To Make Every Tri
+                                    The Best Trip Ever</h4>
+                              </a>
+                              <div class="side_post_views">
+                                 <i class="ti ti-eye"></i> 46 Views
+                              </div>
+                           </div>
+
+                        </div>
+                        <div class="search_result_post">
+                           <figure>
+                              <img src="images/blog/blog_03.jpg" alt="">
+                           </figure>
+                           <div class="side_post_content">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit">How To Make Every Tri
+                                    The Best Trip Ever</h4>
+                              </a>
+                              <div class="side_post_views">
+                                 <i class="ti ti-eye"></i> 46 Views
+                              </div>
+                           </div>
+
+                        </div>
+                        <div class="search_result_post">
+                           <figure>
+                              <img src="images/blog/blog_04.jpg" alt="">
+                           </figure>
+                           <div class="side_post_content">
+                              <a href="single_blog.html">
+                                 <h4 class="webkit">How To Make Every Tri
+                                    The Best Trip Ever</h4>
+                              </a>
+                              <div class="side_post_views">
+                                 <i class="ti ti-eye"></i> 46 Views
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
                   </div>
                   <div class="header_cate_section">
                      <div class="search_icon">
@@ -63,14 +114,7 @@
                         <i class="ti ti-menu-2"></i>
                      </button>
                   </div>
-                  <div class="search_bottom">
-                     <div class="menu_search">
-                        <input type="text" placeholder="Search">
-                        <button class="header_search_btn">
-                           Submit
-                        </button>
-                     </div>
-                  </div>
+                 
                </div>
             </div>
          </div>

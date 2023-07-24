@@ -1,6 +1,15 @@
 @media (max-width: 1212px) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+   .header_search {
+      width: 90%;
+  }
+  
+  .header_search_result {
+      width: 90%;
+      left: 20px;
+  }
+}
 
 @media (max-width: 992px) {
    .nav_links {
@@ -20,7 +29,10 @@
       padding-right: 20px;
       transition: 0.3s;
    }
-
+   .header_search_result{
+      margin: 0;
+      position: absolute;
+   }
    .header_wrapper {
       overflow: visible;
       position: inherit;
@@ -46,7 +58,9 @@
       align-items: center;
       justify-content: space-between;
    }
-
+   .header_Ssearch_main.active {
+      display: flex;
+  }
    .nav_links li .link .nav_icon {
       display: block;
    }
@@ -87,11 +101,11 @@
    }
 
    .search_menu_icon {
-      display: flex;
+      display: none;
    }
 
    .search_icon {
-      display: none;
+      display: flex;
    }
 
    .search_bottom.Active {
@@ -101,9 +115,41 @@
    }
 
    .header_search {
-      display: none;
-   }
+      position: unset;
+      transform: translate(0%, 0%);
+  }
+  
 
+  .header_search.active{
+   width: 100%;
+  }
+  .header_wrapper {
+      position: unset !important;
+  }
+  .header_search_result {
+   top: 57px !important;
+   width: 100%;
+   left: 0;
+}
+  
+  .header_Ssearch_main {
+      left: auto;
+      right: 0;
+  }
+  .latest_main_page{
+   flex-direction: column;
+  }
+  .header_Ssearch_main {
+      top: auto;
+      bottom: -83px;
+      background: var(--primary-600);
+      padding: 5px;
+      right: -176px;
+      left: auto;
+      border-radius: 0 0 5px 5px;
+      border-top: 1px solid white;
+      display: none;
+  }
    .menu_search.Active {
       opacity: 1;
    }
@@ -319,6 +365,10 @@
    }
    .coupon_img_tags{
       flex-direction: column;
+   }
+   .header_Ssearch_main{
+      max-width: 350px;
+      right: -156px !important;
    }
    
 }
