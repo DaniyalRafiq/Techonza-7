@@ -631,31 +631,28 @@ header.visible {
     -webkit-line-clamp: 2;
     font-family: var(--font-500);
     color: white;
-
     figure {
         height: 300px;
     }
 
     ;
-
     figure {
         height: 200px;
     }
 
     ;
-
     figure {
         height: 300px;
     }
 
     ;
-
     figure {
         height: 200px;
     }
 
     ;
     font-size: clamp(17px, 2.5vw, 26px);
+    transition: 0.3s;
 }
 
 .hero_main_child_content {
@@ -707,9 +704,20 @@ header.visible {
     font-size: 19px;
     color: white;
     font-family: var(--font-500);
-    font-size: clamp(16px, 2.5vw, 19px);
+    font-size: clamp(20px, 2.5vw, 21px);
+    transition: 0.3s;
+}
+.hero_main_child_content a:hover h4 {
+    color: #f1f1f1;
 }
 
+.hero_single_sub_child_content a:hover h4 {
+    color: #f1f1f1;
+}
+
+.hero_single_child_content a:hover h4 {
+    color: #f1f1f1;
+}
 .hero_single_child_content {
     padding: 0 20px;
     display: flex;
@@ -779,7 +787,8 @@ header.visible {
 .hero_single_sub_child_content h4 {
     color: white;
     -webkit-line-clamp: 2;
-    font-size: clamp(16px, 2.5vw, 19px);
+    font-size: clamp(19px, 2.5vw, 20px);
+    transition: 0.3s;
 }
 
 /*==========HeroSection End========== */
