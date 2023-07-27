@@ -89,16 +89,6 @@ $('.filter_').click(function () {
 
 
 
-var container = $(window);
-var scrollSpeed = 10; // Adjust the scroll speed as needed
-
-container.on("wheel", function (event) {
-  event.preventDefault();
-  var wheelDelta = event.originalEvent.deltaY;
-
-  container.scrollLeft(container.scrollLeft() + wheelDelta * scrollSpeed);
-});
-
 
 
 
@@ -179,17 +169,13 @@ $('.alphabet-item , .filters_btn').click(function () {
 
 
 
-zoom.addEventListener("change", (e) => {
-  staticBackdrop.classList.toggle("zoom");
-})
 
+// const button = document.querySelector('.show_code_btn');
 
-const button = document.querySelector('.show_code_btn');
+// button.addEventListener('click', () => {
+//   button.classList.add('zoom-out');
+// });
 
-button.addEventListener('click', () => {
-  button.classList.add('zoom-out');
-});
-
-button.addEventListener('transitionend', () => {
-  button.classList.remove('zoom-out');
-});
+// button.addEventListener('transitionend', () => {
+//   button.classList.remove('zoom-out');
+// });

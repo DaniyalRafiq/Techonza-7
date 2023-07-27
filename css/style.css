@@ -179,7 +179,7 @@ figure img {
     height: 100%;
     width: 100%;
     left: 0;
-    background: linear-gradient(0deg, #000000b3, transparent);
+    background: var(--primary-700);
 }
 
 ::-webkit-scrollbar {
@@ -2708,7 +2708,7 @@ article.store-verify__tag p {
 }
 
 .single_store_bg_img {
-    height: 100px;
+    height: 70px;
 }
 
 .single_store_bg_img figure {
@@ -2739,7 +2739,7 @@ article.store-verify__tag p {
     background: white;
     margin: auto;
     border-radius: 50px;
-    border: 5px solid var(--primary-200);
+    border: 5px solid var(--primary-700);
     margin-top: -46px;
     position: relative;
 }
