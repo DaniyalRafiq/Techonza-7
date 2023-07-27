@@ -280,7 +280,7 @@ p {
     font-size: 17px;
     font-family: var(--font-500);
     color: var(--primary-500);
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     background: white;
     padding: 10px;
 }
