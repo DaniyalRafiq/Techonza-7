@@ -849,7 +849,6 @@ header.visible {
     width: 80px;
     overflow: hidden;
     border-radius: 50px;
-    margin-top: -30px;
     position: relative;
     border: 3px solid var(--primary-600);
     padding: 2px;
@@ -908,13 +907,14 @@ header.visible {
     color: var(--primary-200);
 }
 
-.p_cate_sub_content_buttom:after {
-    content: "";
-    position: absolute;
-    left: 86px;
-    width: 1px;
-    height: 100%;
-    background: #a9a9a991;
+.p_cate_sub_content_buttom span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.p_cate_sub_content_buttom span i {
+    font-size: 20px;
 }
 
 .p_cate_main .swiper-slide {
