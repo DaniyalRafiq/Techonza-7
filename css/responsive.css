@@ -178,7 +178,13 @@
    .hero_card_responsive .hero_main_child_content .hero_detail.webkit {
       display: flex;
   }
-
+  .hero_main_child_content h4 {
+   -webkit-line-clamp: 2;
+   font-family: var(--font-500);
+   color: white;
+   font-size: clamp(19px, 2.5vw, 26px);
+   transition: 0.3s;
+}
   .hero_card_responsive .hero_main_child_content .date_aurthor{
       display: flex;
   }

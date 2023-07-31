@@ -123,24 +123,7 @@ $(".filter_blog").click(function (e) {
 $(`.side_bar_post_main[data-type="${attr}"]`).addClass("active").siblings().removeClass("active");
 });
 
-var swiper = new Swiper(".blog_main", {
-  loop: true,
-  slidesPerView: "auto",
-  speed: 500, 
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  pagination: {
-    clickable: true,
 
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 
 
 
