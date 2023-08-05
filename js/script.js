@@ -112,7 +112,8 @@ var swiper = new Swiper(".p_cate_main", {
   pagination: {
     clickable: true,
     el: ".Popular_Category .main_heading .swiper-pagination",
-  },
+  }, 
+
 
 });
 $(".filter_blog").click(function (e) { 
@@ -132,6 +133,7 @@ var swiper = new Swiper(".latest_post_wrapper", {
   slidesPerView: "auto",
   speed: 500, 
   spaceBetween: 30,
+  
   pagination: {
     clickable: true,
 
@@ -145,20 +147,55 @@ var swiper = new Swiper(".latest_post_wrapper", {
 //   $(this).addClass('active').siblings().removeClass('active')
 // });
 
-$('.alphabet-item , .filters_btn').click(function () {
+$('.alphabet-item , .filters_btn ').click(function () {
   $(this).addClass('active').siblings().removeClass('active')
+});
+$('.contact_field input, .contact_field textarea').on('focus', function() {
+  // Add the 'active' class to the label associated with the focused input
+  $(this).siblings('label').addClass('active');
+});
+
+$('.contact_field input, .contact_field textarea').on('blur', function() {
+  // Remove the 'active' class from the label if input/textarea is empty
+  if (!$(this).val().trim()) {
+    $(this).siblings('label').removeClass('active');
+  }
+});
+
+// Initialize the active state on page load
+$('.contact_field input, .contact_field textarea').each(function() {
+  if ($(this).val().trim()) {
+    $(this).siblings('label').addClass('active');
+  }
 });
 
 
-
-
-
-// const button = document.querySelector('.show_code_btn');
-
-// button.addEventListener('click', () => {
-//   button.classList.add('zoom-out');
-// });
-
-// button.addEventListener('transitionend', () => {
-//   button.classList.remove('zoom-out');
-// });
+$('#contact-form').submit(function(e) {
+  e.preventDefault(); // Prevent the default form submission behavior
+  
+  // Initialize EmailJS with your user ID
+  emailjs.init("ciiT7-l6Joqijcejz"); // Replace with your EmailJS user ID
+  
+  // Get form data
+  var formData = {
+    name: $('#contact-form input[name="name"]').val(),
+    email: $('#contact-form input[name="email"]').val(),
+    subject: $('#contact-form input[name="subject"]').val(),
+    message: $('#contact-form textarea[name="message"]').val()
+  };
+  
+  // Send email using EmailJS
+  emailjs.send("service_exypb5a", "template_y0lm608", formData)
+     .then(function(response) {
+        console.log("Email sent:", response);
+        // Handle success (e.g., show a success message)
+        alert("Email sent successfully!");
+        
+        // Clear form inputs
+        $('#contact-form')[0].reset();
+     }, function(error) {
+        console.error("Email error:", error);
+        // Handle error (e.g., display an error message)
+        alert("Error sending email.");
+     });
+});
