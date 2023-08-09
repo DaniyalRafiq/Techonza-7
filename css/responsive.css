@@ -67,6 +67,15 @@
       padding-right: 14px;
       transition: 0.3s;
    }
+   .menu {
+      height: 35px;
+      width: 35px;
+  }
+  
+  .search_icon {
+      height: 35px;
+      width: 35px;
+  }
    .header_search_result{
       margin: 0;
       position: absolute;
@@ -354,7 +363,7 @@
 @media (max-width: 846px) {
    .feature_card {
       flex-direction: column  !important;
-      border: 4px solid var(--primary-200);
+      border: 0;
    }
 
 }
@@ -519,6 +528,17 @@
 }
 .latest_blog_child:last-child{
    display: none;
+}
+.feature_wrraper {
+   grid-template-columns: repeat(auto-fill, minmax(229px, 1fr));
+}
+
+.feature_wrraper_res {
+   grid-template-columns: repeat(auto-fill, minmax(229px, 1fr));
+}
+.header_search_main {
+   right: -158px;
+   WIDTH: 86%;
 }
 }
 
