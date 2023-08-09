@@ -2467,7 +2467,7 @@ form.contact_form {
     width: 100%;
     left: 0;
     background: var(--primary-900);
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .single_uper_card_main {
@@ -2846,7 +2846,7 @@ article.store-verify__tag p {
 
 .modal-header {
     background: white;
-    gap: 6px;
+    gap: 10px;
     align-items: center;
     flex-direction: column;
 }
@@ -2855,7 +2855,8 @@ article.store-verify__tag p {
     background: white;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 15px;
+    padding: 15px;
 }
 
 .modal-footer {
