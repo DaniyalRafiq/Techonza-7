@@ -236,6 +236,7 @@ p {
     color: var(--primary-500);
     background: white;
     padding: 8px;
+    box-shadow: 0 0 5px #ebebeb;
 }
 
 header {
@@ -721,6 +722,7 @@ a.readmore {}
     margin-bottom: 30px;
     justify-content: space-between;
     /* flex-direction: column; */
+    align-items: center;
     /* gap: 10px; */
 }
 
@@ -803,10 +805,12 @@ a.readmore {}
     display: flex;
     flex-direction: column;
     gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .p_cate_card {
-    box-shadow: 1px 1px 6px #0002;
+    box-shadow: 0px 0px 6px #bbb2;
     border-radius: 10px;
     overflow: hidden;
     display: block;
@@ -832,6 +836,7 @@ a.readmore {}
     text-align: center;
     color: black;
     font-weight: 700;
+    word-break: break-all;
 }
 
 .p_cate_sub_content_buttom {
@@ -842,6 +847,9 @@ a.readmore {}
     position: relative;
     width: 100%;
     color: var(--primary-200);
+    align-items: center;
+    align-self: center;
+    justify-content: center;
 }
 
 .p_cate_sub_content_buttom span {
@@ -1956,7 +1964,7 @@ figure.latest_post_img {
 
 /*==========StoreStart========== */
 .side_tag_item a {
-    background: #93939352;
+    background: #ebebeb52;
     color: #1c1c1c;
 }
 
@@ -2051,6 +2059,7 @@ a.view_all_btn i {
     flex-direction: column;
     margin: 0%;
     gap: 10px;
+    background: white;
 }
 
 .store_card:hover {
@@ -2484,12 +2493,14 @@ form.contact_form {
     margin-top: 30px;
     align-items: flex-start;
     gap: 40px;
+    position: relative;
 }
 
 .single_store_wrapper_main {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    position: relative;
 }
 
 .exp_cpns {
@@ -2499,7 +2510,7 @@ form.contact_form {
 .single_store_main {
     display: grid;
     flex: 1;
-    grid-template-columns: repeat(auto-fill, minmax(213px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(253px, 1fr));
     gap: 29px;
 }
 
@@ -2789,9 +2800,9 @@ article.store-verify__tag p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 199%;
     gap: 7px;
     border-radius: 5px;
+    width: 100%;
 }
 
 .filter_coupon button {
@@ -3148,6 +3159,7 @@ article.store-verify__tag p {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
+    max-width: 450px;
 }
 
 .search_result_post {
@@ -3468,6 +3480,7 @@ article.store-verify__tag p {
 .post_category {
     color: var(--primary-200);
     font-family: var(--font-500);
+    font-size: 15px;
 }
 
 .post_date {
